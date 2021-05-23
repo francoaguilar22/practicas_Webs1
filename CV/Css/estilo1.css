@@ -1,0 +1,700 @@
+@font-face {
+    font-family: "comforta";
+    src: url(/Prototipo_pagina_index/Fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+
+
+body{ width: 100%;
+    height: 100%;
+    background-image: url("/CV/imagen_cv/body1.jpg");
+    font-family: "comforta";
+
+      }
+/* titulo grande */
+.mi_cv{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:white;
+
+}
+
+/* divisiones "hr" */
+.hr2{
+    height: 1px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.hr1{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.cabeza{
+    text-align: center;
+    background-image:url("/CV/imagen_cv/banner2.jpg");
+    background-repeat:repeat ;
+    color:rgb(5, 5, 68);
+    font-size: 18px;
+
+}
+
+
+.CERTUS{
+
+    font-size: 50px;
+    color: rgb(5, 5, 68);
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+/* FOTO DE CV */
+.Cfoto{
+    margin-top: -30px;
+
+}
+ .foto{
+    /* imagen */
+    margin-left: 80%;
+    margin-top: -150px;
+
+    /* no funciona con el padding al acomodar la imagen hacia la izquierda de la pagina */
+    width: 160px;
+    height: 200px;
+    /* marco de iamgen */
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: rgb(31, 66, 161);
+
+}
+
+/* SECCION H1 */
+h1{
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+
+  /* underline wavy subrrayado ondulado */
+
+  text-align: center;
+
+
+}
+
+
+
+.h1bloque{
+    background-color:rgb(5, 5, 68);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
+
+/* PARRAFOS Y H2s */
+
+.parrafo1{
+text-align: left;
+color: rgb(255, 255, 255);
+font-size: 18px;
+background-color: rgb(5, 5, 68);
+border-radius: 5px;
+}
+
+h2{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline wavy rgb(255, 255, 255);
+     /* underline wavy subrrayado ondulado */
+
+
+}
+
+
+
+
+ .parrafo2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* para reducir la distancia en el parrao 2 y "datos del postulante" */
+    margin-top: -10px;
+    margin-bottom: -20px;
+    background-color: rgb(5, 5, 68);
+    border-radius: 5px;
+    margin-right: 1200px;
+
+}
+
+                   /* VINCULOS */
+
+  /* VINCULO 1 */
+
+a.vinculo1:hover{
+    background-image: url("/CV/imagen_cv/decorado10.jpg");
+    background-size: 50%;
+    color: white;
+
+
+
+}
+
+
+.vinculo1{
+    background-color: rgb(15, 15, 94);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+
+}
+ /* VINCULO 2 */
+
+ a.vinculo2:hover{
+    background-image: url("/CV/imagen_cv/decorado11.jpg");
+    background-size: 50%;
+    color: white;
+
+
+
+}
+
+.vinculo2{
+    background-color: rgb(15, 15, 94);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+/* VINCULO 3 */
+
+a.vinculo3:hover{
+    background-image: url("/CV/imagen_cv/decorado12.jpg");
+    background-size: 50%;
+    color: white;
+
+}
+
+.vinculo3{
+    background-color: rgb(15, 15, 94);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+/* VINCULO 4 */
+
+.vinculo4:hover{
+    background-image: url("/CV/imagen_cv/decorado13.pg.jpg");
+    background-size: 50%;
+    color: white;
+}
+
+.vinculo4{
+    background-color: rgb(15, 15, 94);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    margin-left: 3%;
+
+
+}
+
+/* VINCULO 5 */
+
+.vinculo5:hover{
+    background-image: url("/CV/imagen_cv/decorado14.jpg");
+    background-size: 80%;
+    color: black;
+
+}
+
+.vinculo5{
+    background-color: rgb(15, 15, 94);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+/* VINCULO 6*/
+
+.vinculo6:hover{
+    background-image: url("/CV/imagen_cv/decoradoa15.jpg");
+    background-size: 50%;
+    color:wheat;
+
+
+}
+
+.vinculo6{
+    background-color: rgb(15, 15, 94);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    margin-left: 2%;
+
+
+}
+
+
+.TodosLosVinculos{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+/* TABLAS */
+
+/* TABLA Nº 1 */
+
+ .tabla1 {
+    width: 100%;
+    border: 3px solid white;
+    border-collapse: collapse;
+ /* collapse para quitar la doble liena  */
+
+}
+
+.tabla1 thead th , .tabla1 tbody td{
+
+    border: 3px solid white;
+    padding:  5px;
+    color: white;
+    font-weight: bolder;
+    background-image: url("/CV/imagen_cv/body2.jpg");
+  ;
+}
+
+.tabla1 thead th{
+    height:  45px;
+    text-align: center;
+    vertical-align: top;
+
+  }
+
+  /* TABLA Nº 2 */
+
+ .tabla2 {
+    width: 100%;
+    border: 3px solid white;
+    border-collapse: collapse;
+    background-image: url("/CV/imagen_cv/body2.jpg");
+    background-size: 306%;
+
+ /* collapse para quitar la doble liena  */
+
+}
+
+.tabla2 thead th , .tabla2 tbody td{
+
+    border: 3px solid wheat;
+    padding:  5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.tabla2 thead th{
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+
+  }
+
+  /* TABLA Nº 3 */
+
+ .tabla3 {
+    width: 100%;
+    border: 3px solid wheatl;
+    border-collapse: collapse;
+    background-image: url("/CV/imagen_cv/body2.jpg");
+ /* collapse para quitar la doble liena  */
+
+}
+
+.tabla3 thead th , .tabla3 tbody td{
+
+    border: 3px solid wheat;
+    padding:  5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.tabla3 thead th{
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+
+  }
+
+  /* TABLA Nº 4 */
+
+ .tabla4{
+    width: 50%;
+    border: 3px solid wheat;
+    border-collapse: collapse;
+    background-image: url("/CV/imagen_cv/body2.jpg");
+ /* collapse para quitar la doble liena  */
+
+}
+
+.tabla4 thead th , .tabla4 tbody td{
+
+    border: 3px solid wheat;
+    padding:  5px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.tabla4 thead th{
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+
+  }
+
+  /* TABLA Nº 5 */
+
+ .tabla5 {
+    width: 50%;
+    border: 3px solid wheat;
+    border-collapse: collapse;
+    background-image: url("/CV/imagen_cv/body2.jpg");
+ /* collapse para quitar la doble liena  */
+
+
+}
+
+.tabla5 thead th , .tabla5 tbody td{
+
+    border: 3px solid wheat;
+    padding:  5px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.tabla5 thead th{
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+
+
+  }
+
+  /* TABLA Nº 6 */
+
+ .tabla6 {
+    width: 50%;
+    border: 3px solid white;
+    border-collapse: collapse;
+    background-image: url("/CV/imagen_cv/body2.jpg");
+ /* collapse para quitar la doble liena  */
+
+}
+
+.tabla6 thead th , .tabla6 tbody td{
+
+    border: 3px solid wheat;
+    padding:  5px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.tabla6 thead th{
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+
+  }
+
+  /* boton de regreso */
+
+
+ .divregreso{
+    background-color: rgb(8, 28, 94);
+    padding: 3px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 80px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30PX;
+    margin-bottom: -10PX;
+ }
+
+ .datos{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.divregreso:hover{
+    background-color: rgb(51, 173, 221);
+
+}
+
+.datos:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+/* tipos de tablas */
+
+.tablatitulo1{
+
+    padding: 0px;
+    border-style: ridge;
+    border-color: rgb(35, 13, 163);
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+.tablatitulo2{
+
+    padding: -100px;
+    border-style: ridge;
+    border-color: rgb(35, 13, 163);
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+.tablatitulo3{
+
+    padding: -100px;
+    border-style: ridge;
+    border-color: rgb(35, 13, 163);
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+.tablatitulo4{
+
+    padding: -100px;
+    border-style: ridge;
+    border-color: rgb(35, 13, 163);
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+.tablatitulo5{
+
+    padding: -100px;
+    border-style: ridge;
+    border-color: rgb(35, 13, 163);
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+.tablatitulo6{
+
+    padding: -100px;
+    border-style: ridge;
+    border-color: rgb(35, 13, 163);
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+
+h4{
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-shadow:3px 4px 0px white; /*  tercer px para difuminar el color trasero del texto */
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* iamgenes dentro de margenes de titulos de cadsa tabla*/
+
+#decorado1{
+
+    background-image: url("/CV/imagen_cv/decorado1.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+#decorado2{
+
+    background-image: url("/CV/imagen_cv/decorado6.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+
+
+
+
+}
+#decorado3{
+
+    background-image: url("/CV/imagen_cv/decorado3.jpg");
+    background-repeat: no-repeat;
+
+    background-size:100%;
+
+
+
+}
+
+#decorado4{
+
+    background-image: url("/CV/imagen_cv/decorado4.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+
+
+
+}
+
+#decorado5{
+
+    background-image: url("/CV/imagen_cv/decorado5.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+
+
+
+}
+
+#decorado6{
+
+    background-image: url("/CV/imagen_cv/decorado3.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+
+
+
+}
+
+    /* adicionales */
+
+.decoracionAdicioanl:hover{
+
+    color:rgb(10, 26, 112);
+    background-color: white;
+    font-size: 30px;
+    
+   
+
+    }
+
+
+
+.decoracionAdicioanl{
+
+    font-size: none;
+    padding: none;
+    background-color:none ;
+    color: transparent;
+    margin-left: 50px ;
+    margin-right:550px ;
+    border-radius: 10px;
+    text-align: center;
+    transition: 2s
+    
+
+}
+.conte{
+    background-color: white;
+    color: rgb(34, 54, 168);
+    margin-right: 1150px;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: bolder;
+}
+   
+
+.foto:hover{
+
+  height: 300px;
+  width: 250px;
+
+}
+.foto{
+    transition: 2s;
+
+}
+
+
+/*
+((no se por que no fumciono ))
+
+#foto:not(:hover){
+    transform: all 2s;
+} */
+
+.touch{
+    margin-left: 1080px;
+    margin-bottom: 200px;
+    margin-top: -180px;
+    font-weight: bolder;
+}
+
+
+/* 
+
+NO PUEDO HACER ANIMACIONES PARA LOS BOTONOS , POR QUE NO SON DIV , LO INTENTE HACER CON LA ETIQUETA "<a>" 
+Y NO ME FUNCIONO
+a.vinculo1{
+
+transition: 2s;
+}
+
+a.vinculo1:hover{
+    height: 300px;
+    width: 250px;
+
+    
+} */
